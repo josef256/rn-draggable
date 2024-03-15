@@ -43,7 +43,7 @@
     "type": "git",
     "url": "git+https://www.npmjs.com/settings/josef256/packages.git"
   },
-  "author": "josef256 <hanchaoui.youssef256@gmail.com> (https://www.npmjs.com/settings/josef256/packages)",
+  "author": "josef256 <hanchaoui.youssef256@gmail.com> (https://github.com/josef256)",
   "license": "MIT",
   "bugs": {
     "url": "https://www.npmjs.com/settings/josef256/packages/issues"
@@ -65,7 +65,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "jest": "^29.7.0",
-    "prettier": "^3.0.3",
+    "prettier": "3.2.5",
     "react": "18.2.0",
     "react-native": "0.73.5",
     "react-native-builder-bob": "^0.20.0",
