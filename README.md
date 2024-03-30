@@ -18,8 +18,8 @@ import { Draggable } from 'rn-draggable';
 // ...
 
 <Draggable>
-	<YourCompomemt />
-</Draggable>;
+<YourCompomemt />
+</Draggable>
 ```
 
 ## Contributing
