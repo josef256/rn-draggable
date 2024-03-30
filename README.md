@@ -2,6 +2,8 @@
 
 a react native wrapper to drag any component
 
+<img src="https://github.com/josef256/rn-draggable/assets/15874482/bb1f4042-1d32-4cc3-bc61-521af6cd5f30" width="300" height="500"/>
+
 ## Installation
 
 ```sh
