@@ -1,22 +1,18 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'drag-me';
+import { StyleSheet, View } from 'react-native';
+import { Draggable } from 'rn-draggable';
 
-export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Draggable>
+        <View style={styles.box} />
+      </Draggable>
     </View>
   );
-}
-
+};
+export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -26,6 +22,6 @@ const styles = StyleSheet.create({
   box: {
     width: 60,
     height: 60,
-    marginVertical: 20,
+    backgroundColor: 'blue',
   },
 });

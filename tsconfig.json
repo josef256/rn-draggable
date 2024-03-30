@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "drag-me": ["./src/index"]
+      "rn-draggable": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

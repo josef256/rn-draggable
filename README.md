@@ -1,21 +1,23 @@
-# drag-me
+# rn-draggable
 
 a react native wrapper to drag any component
 
 ## Installation
 
 ```sh
-npm install drag-me
+npm install rn-draggable
 ```
 
 ## Usage
 
-```js
-import { multiply } from 'drag-me';
+```jsx
+import { Draggable } from 'rn-draggable';
 
 // ...
 
-const result = await multiply(3, 7);
+<Draggable>
+	<YourCompomemt />
+</Draggable>;
 ```
 
 ## Contributing

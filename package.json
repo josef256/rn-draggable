@@ -1,7 +1,7 @@
 {
-  "name": "drag-me",
+  "name": "rn-draggable",
   "version": "0.1.0",
-  "description": "a react native wrapper to drag any component",
+  "description": "a react-native wrapper to drag any component",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -116,7 +116,8 @@
     "root": true,
     "extends": [
       "@react-native",
-      "prettier"
+      "prettier",
+      "eslint-config-prettier"
     ],
     "rules": {
       "prettier/prettier": [
