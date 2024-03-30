@@ -21,7 +21,19 @@ import { Draggable } from 'rn-draggable';
 <YourCompomemt />
 </Draggable>
 ```
+## props
+Draggable accept the following props <br /> 
+-<strong>onGrant</Strong>: Function (fired when the draggable component is initiated)  <br /> 
+-<strong>onMove</Strong>: Function  (fired when the draggable component is being dragged) <br /> 
+-<strong>onRelease</Strong>: Function (fired when the draggable component is released).  <br /> 
 
+## Example
+```jsx
+const myFunction=()=>{...}
+<Draggable onGrant={myFunction}>
+{/*...*/}
+</Draggable>
+```
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
