@@ -1,6 +1,6 @@
 {
   "name": "rn-draggable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a react-native wrapper to drag any component",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace drag-me-example",
+    "example": "yarn example start",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -57,6 +57,7 @@
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^5.0.0",
+    "@testing-library/react-native": "^12.5.0",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
@@ -64,6 +65,7 @@
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-testing-library": "^6.2.2",
     "jest": "^29.7.0",
     "prettier": "3.2.5",
     "react": "18.2.0",
@@ -110,26 +112,6 @@
       "@release-it/conventional-changelog": {
         "preset": "angular"
       }
-    }
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@react-native",
-      "prettier",
-      "eslint-config-prettier"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
-      ]
     }
   },
   "eslintIgnore": [
